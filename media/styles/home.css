@@ -1,0 +1,300 @@
+div#montage {
+    height: 300px;
+    overflow:hidden;
+    position: relative;
+}
+
+div#montage img#hero-img {
+    width: 100%;
+    border-bottom: 1px solid #444;
+    min-height: 300px;
+}
+
+div#montage-inner {
+    width: 580px;
+    margin: 0 auto 0 auto;
+}
+
+div.apply-call {
+    position: absolute;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    height: 200px;
+    bottom: 20px;
+    padding-left: 10px;
+    color: #FFF;
+    font-size: 0.8em;
+}
+
+div.apply-call-txt {
+    float: left;
+}
+
+div.apply-call a#sponsor-reel-link {
+    display:inline-block;
+    margin: 0;
+}
+
+div.apply-call img#sponsor-reel {
+    width: 590px;
+    min-height: auto;
+    margin-top: 10px;
+    border: 0;
+    opacity: 0.8;
+}
+
+div.apply-call a {
+    display: inline-block;
+}
+
+div#event-cont {
+    float: left;
+    width: 308px;
+    margin-top: 14px;
+}
+
+#location {
+    font-weight: bold;
+    padding: 0 0 10px 0px;
+    margin-bottom: 10px;
+}
+
+div#event-info {
+    color: #FFF;
+    font-size: 2.4em;
+    top: 20px;
+}
+
+div#patron-callout {
+    width: 250px;
+    float: left;
+    margin: 12px 0 0 10px;
+    border-left: 1px solid #999;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 122px;
+}
+
+div#patron-callout a {
+    color: #FFF;
+    float: none;
+    margin-left: 0px;
+    margin-top: 4px;
+}
+
+div#montage img#apply-btn {
+    width: 100px;
+    height: 30px;
+    min-height: 10px;
+    border-bottom: none;
+    vertical-align: middle;
+}
+
+div.apply-call-overlay {
+    opacity: 0.6;
+    background-color: #000;
+}
+
+div.apply-call h2 {
+    color: #00AFEC;
+    text-align: left;
+    font-size: 1.7em;
+    margin-top: 14px;
+    margin-bottom: 4px;
+}
+
+div#content {
+    width: 630px;
+    color: #444;
+}
+
+div#content p {
+    line-height: 1.6em;
+    color: #444;
+}
+
+h1 {
+    color: #444444;
+    font-size: 4.0em;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    color: #000;
+    font-size: 1.7em;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+}
+
+.exceed {
+    width: 120%;
+    margin-left: -10%;
+}
+
+h2#event-date {
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+h4 {
+    color: #444;
+    font-size: 1.2em;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+}
+
+#launch-promo-vid {
+    margin: 50px 0 50px 0;
+}
+
+#launch-venue-map {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.section-divider {
+    display: block;
+    width: 120%;
+    margin-left: -10%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;
+}
+
+#apply-now-header {
+    margin-bottom: 10px;
+}
+#apply-now {
+    text-align: center;
+    margin-bottom: 40px;
+}
+#apply-now a {
+    font-weight: normal;
+    color: #44C4F1;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+#apply-now a span {
+    font-size: 0.6em;
+}
+
+ol#hackathon-info {
+    margin-bottom: 40px;
+}
+
+#recap-cont {
+    text-align: center;
+}
+#recap-cont p {
+    text-align: left;
+}
+
+h2#recap {
+    display: inline-block;
+    color: #FFF;
+    padding: 18px;
+    background-color: #00AFEC;
+    width: auto;
+    text-align: center;
+}
+
+#past-pics {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#past-pics img {
+    width: 134px;
+    margin-right: 14px;
+}
+
+h2#past-prizes {
+    margin-bottom: 10px;
+}
+h2.sub-text {
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: #444;
+}
+
+h2 a#past-winner-link {
+    font-weight: normal;
+    color: #44C4F1;
+    text-decoration: none;
+}
+ul {
+    text-align: center;
+    display: block;
+    list-style-position:inside;
+    margin-bottom: 40px;
+}
+ul li {
+    width: auto;
+    padding: 0;
+    margin-left: 0;
+}
+li h2 {
+    margin-bottom: 6px;
+    width: auto;
+}
+
+#launch-past-finals {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-us a {
+    font-weight: normal;
+    color: #44C4F1;
+    text-decoration: none;
+}
+
+#event-countdown {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+#event-countdown #subtext {
+    margin-top: 40px;
+    text-align: center;
+    color: #444;
+}
+
+div.fireside-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #000;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+div.fireside-cont {
+    text-align: center;
+}
+
+div.fireside-speaker {
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+div.fireside-speaker img {
+    width: 250px;
+}
