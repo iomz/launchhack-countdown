@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>LAUNCH Hackathon</title>
   <link rel="icon" type="image/ico" href="./media/favicon.ico">
   <link rel="stylesheet" href="./media/styles/base.css" />
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="./media/styles/home.css" />
   <link rel="stylesheet" href="./media/styles/jquery.countdown.css" />
 </head>
 <body>
@@ -16,11 +15,15 @@
     </div>
     <div class="section-divider"></div>
     <div id="event-countdown">
-        <div year="2013" month="11" day="11" hour="4 " minute="0" id="countdown"></div><div class="clear"></div>
+        <div year="2013" month="11" day="11" hour="0" minute="0" id="countdown"></div><div class="clear"></div>
     </div>
     <div class="section-divider"></div>
+    <div class="center">
+        <video id="localVideo" autoplay="autoplay" align="right"></video>
+    </div>
     <script src="./media/scripts/jquery-1.10.0.min.js"></script>
     <script src="./media/scripts/dashboard.js"></script>
+    <script type="text/javascript" src="./media/scripts/main.js"></script>
     <script src="./media/scripts/jquery.countdown.min.js"></script>
 </body>
 </html>
